@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box; /* Added for consistent box model */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for a cleaner look */
+}
+
+/* Optional: Custom scrollbar for better user experience if needed */
+/*
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8185B2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6a6e9a;
+}
+*/
